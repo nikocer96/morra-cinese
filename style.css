@@ -1,21 +1,34 @@
 @keyframes animationColor {
     0% {
-        background-color: #6DB9EF;
+        background-color: #7F27FF;
     }
     25% {
-        background-color: #6DB9EF;
+        background-color: #6C22A6;
     }
     50% {
-        background-color: #6DB9EF;
-    }
-    75% {
-        background-color: #3081D0;
-    }
-    100% {
-        background-color: #0766AD;
+        background-color: rgb(124, 18, 106);
     }
 }
 
 .animate-animationColor {
     animation: animationColor 5s infinite ease-in-out;
+}
+
+@keyframes animation2Color {
+    0% {
+        border-color: #9F70FD;
+    }
+    25% {
+        border-color: #836FFF;
+    }
+    50% {
+        border-color: #7F27FF;
+    }
+    75% {
+        border-color: #6C22A6;
+    }
+}
+
+.animate-animation2Color {
+    animation: animation2Color 3s infinite ease-in-out;
 }
